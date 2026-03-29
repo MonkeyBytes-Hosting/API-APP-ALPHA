@@ -1,17 +1,17 @@
 {
-  "app_name": "MonkeyBytes AI test",
-  "app_url": "http://gb.monkey-network.xyz:4032",
-  "app_logo_file": "app-logo-69c7f5fc1514a-1774712316.png",
+  "app_name": "AI ALPHA",
+  "app_url": "http://gb.monkey-network.xyz:4032/",
+  "app_logo_file": "app-logo-69c941a4d8cdb-1774797220.png",
   "app_storage": "1",
   "build_config": {
-    "version_name": "1.2",
+    "version_name": "1.4",
     "version_code": "1",
     "app_package": "xyz.monkeynetwork.app",
     "min_sdk": "24",
     "build_scheme": "64bit",
-    "builder_log_file": "builder-log-69c7f4cee4a48-1774712014.txt",
-    "apk_file": "app-apk-69c7f4cee5543-1774712014.apk",
-    "apk_modified_at": 1774712015,
+    "builder_log_file": "builder-log-69c83557a7b2c-1774728535.txt",
+    "apk_file": "app-apk-69c83557a7b98-1774728535.apk",
+    "apk_modified_at": 1774728536,
     "aab_file": "",
     "aab_modified_at": "",
     "simulator_file": "",
@@ -48,8 +48,8 @@
         "fullscreen_mode": "1",
         "app_orientation": "2",
         "bg_color": {
-          "light": "#7289DA",
-          "dark": "#5865F2"
+          "light": "#ffffff",
+          "dark": "#000000"
         }
       }
     },
@@ -69,10 +69,10 @@
       "settings": {}
     },
     "exit_blocker": {
-      "status": "1",
+      "status": "0",
       "settings": {
         "double_click_exit": {
-          "status": "1",
+          "status": "0",
           "message": "Are you sure you want to close this app?",
           "confirm_btn_text": "Yes",
           "cancel_btn_text": "No"
@@ -84,12 +84,12 @@
       "status": "1",
       "settings": {
         "bg_color": {
-          "light": "#5865F2",
-          "dark": "#7289DA"
+          "light": "#ffffff",
+          "dark": "#000000"
         },
         "icon_color_scheme": {
           "light": "1",
-          "dark": "1"
+          "dark": "2"
         }
       }
     },
@@ -190,14 +190,14 @@
       "settings": {
         "animation_file": "",
         "color": {
-          "light": "#7289DA",
-          "dark": "#5865F2"
+          "light": "#633AE5",
+          "dark": "#633AE5"
         },
         "appearance": "1",
         "style": "1",
         "bg_color": {
-          "light": "#7289DA",
-          "dark": "#5865F2"
+          "light": "#ffffff",
+          "dark": "#000000"
         },
         "wait_before_hide": "0",
         "allowed_urls": "",
@@ -208,8 +208,8 @@
       "status": "1",
       "settings": {
         "bg_color": {
-          "light": "#fc0303",
-          "dark": "#ff0000"
+          "light": "#0d0d0d",
+          "dark": "#000000"
         },
         "msg": "Something went wrong.",
         "msg_text_color": {
@@ -218,17 +218,17 @@
         },
         "retry_btn_text": "Try Again",
         "retry_btn_text_color": {
-          "light": "#ffffff",
+          "light": "#080808",
           "dark": "#ffffff"
         },
         "retry_btn_color": {
-          "light": "#633ae5",
-          "dark": "#633ae5"
+          "light": "#0a0a0a",
+          "dark": "#f7f7f8"
         }
       }
     },
     "file_downloader": {
-      "status": "0",
+      "status": "1",
       "settings": {
         "plist_photo_use_string": "Allow access to photo library to allow the app to read and write files inside Photos.",
         "bg_color": {
@@ -276,13 +276,13 @@
       }
     },
     "camera_access": {
-      "status": "0",
+      "status": "1",
       "settings": {
         "plist_use_string": "Allow camera access permission to use this feature."
       }
     },
     "microphone_access": {
-      "status": "0",
+      "status": "1",
       "settings": {
         "plist_use_string": "Allow microphone access permission to use this feature."
       }
@@ -332,7 +332,7 @@
     "url_blocker": {
       "status": "1",
       "settings": {
-        "allowed_urls": "http://gb.monkey-network.xyz:4032",
+        "allowed_urls": "",
         "disallowed_urls": "instagram.com<=>linkedin.com<=>whatsapp.com<=>wa.me"
       }
     },
@@ -419,12 +419,12 @@
       }
     },
     "biometric_auth": {
-      "status": "1",
+      "status": "0",
       "settings": {
         "plist_use_string": "This feature is required to verify the device owner before seeing confidential information.",
-        "force_biometric_only": "1",
+        "force_biometric_only": "0",
         "description": "Please authenticate to see the confidential information.",
-        "allowed_urls": "http://gb.monkey-network.xyz:4032"
+        "allowed_urls": ""
       }
     },
     "qr_scanner": {
@@ -524,19 +524,19 @@
     "splash_screen": {
       "status": "1",
       "settings": {
-        "logo_file": "app-splash-logo-69c7f5dda92be-1774712285.png",
-        "bg_static_file": "app-splash-bg-img-69c7f5dda955d-1774712285.png",
+        "logo_file": "app-splash-logo-69c9418e18730-1774797198.png",
+        "bg_static_file": "",
         "bg_animated_file": "",
         "disable_widgets_load": "0",
         "enable_logo": "1",
         "has_bg_img": "0",
         "bg_image_type": "1",
         "bg_color": {
-          "light": "#ffffff",
+          "light": "#000000",
           "dark": "#000000"
         },
         "logo_width": "120",
-        "timeout": "2000"
+        "timeout": "3000"
       }
     },
     "deeplink": {
@@ -577,11 +577,11 @@
       "settings": {
         "bg_color": {
           "light": "#ffffff",
-          "dark": "#5865F2"
+          "dark": "#000000"
         },
         "loader_color": {
-          "light": "#7289DA",
-          "dark": "#5865F2"
+          "light": "#633AE5",
+          "dark": "#979191"
         },
         "allowed_urls": "",
         "disallowed_urls": ""
@@ -595,12 +595,12 @@
       }
     }
   },
-  "app_id": "312561",
+  "app_id": "312687",
   "app_user_id": "221469",
   "app_plan": "1",
-  "app_code": "uzoo2q1tyad93v3zve4xs8wwkfdncfti0k1glb5b",
+  "app_code": "e3up2iql4i5w1zcb6k1sx3ylk8bjoconsrdjphwm",
   "app_platform": "1",
-  "app_end_date": "2026-04-28 15:22:59",
+  "app_end_date": "2026-04-28 20:02:50",
   "replacement_rule": "",
   "custom_module": ""
 }
