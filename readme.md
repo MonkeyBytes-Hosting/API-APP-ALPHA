@@ -1,6 +1,6 @@
 ###list of apks
 
-[Alpha v1.2](https://github.com/MonkeyBytes-Hosting/API-APP-ALPHA/releases/tag/1.2))](https://github.com/MonkeyBytes-Hosting/API-APP-ALPHA/releases/tag/1.2)
+[Alpha v1.2](https://github.com/MonkeyBytes-Hosting/API-APP-ALPHA/releases/tag/1.2)
 
 [Alpha v1.3](https://github.com/MonkeyBytes-Hosting/API-APP-ALPHA/releases/tag/1.3)
 
